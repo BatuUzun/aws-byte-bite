@@ -7,8 +7,8 @@ The aim of this project is to create a dynamic and engaging recipe-sharing platf
 
 
 ## Members
-Batu Uzun (Leading contributor)<br>
-Mehmet Enes Çakır (Supporting contributor)
+Batu Uzun (*Leading contributor*)<br>
+Mehmet Enes Çakır (*Supporting contributor*)
 
 
 ## Installation
@@ -146,5 +146,9 @@ Mehmet Enes Çakır (Supporting contributor)
 **Database:** AWS, MySQL<br>
 **In-memory, Cache:** Redis<br>
 **Load Balancer:** NginX<br>
-**VCS:** Git, Github<br>
+**VCS:** Git, Github<br><br>
 
+
+## Media
+#### Our App Logo and Name (YumByte)
+![play_store_512](https://github.com/user-attachments/assets/46411cb8-e8a1-4e16-a00e-2b3ec4116d38)<br>
