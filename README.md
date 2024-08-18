@@ -22,26 +22,26 @@ Mehmet Enes Çakır (Supporting contributor)
   * git submodule update --init --recursive
 
 #### Open "backend" folder and run them in any Java Spring Boot supporting IDE (e.g. Eclipse, IntelliJ IDEA). First run "namingserver", then run the other services. Open any browser and navigate "http://localhost:8761/" to monitor backend microservices' status.
-  * in browser, type url of "http://localhost:8761"
+  * in browser, type url of *http://localhost:8761*
 
 #### Download Nginx for the ML part. (Downlaod NginX from the url: "https://nginx.org/en/docs/windows.html")
-  * Unzip the nginx folder, and navigate to the "conf" folder. Inside of that folder, open the "nginx.conf" file with any text editor.
-  * Inside that file, please add this code:
-  `upstream flaskapp {
-        server 127.0.0.1:5000;
-        server 127.0.0.1:5001;
-        server 127.0.0.1:5002;
-  }`
-  * Then run the nginx.exe
+  * Unzip the nginx folder, and navigate to the *conf* folder. Inside of that folder, open the *nginx.conf* file with any text editor.
+  * Inside that file, please add this code:<br>
+  `upstream flaskapp {`<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;`server 127.0.0.1:5000;`<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;`server 127.0.0.1:5001;`<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;`server 127.0.0.1:5002;`<br>
+ `}`<br>
+  * Then run the *nginx.exe*
 
 
 #### Open the "ml" folder and run "ML" folder's python code (API.py) which contains machine learning pyhton code inside of it. Additionally, run the "redis-server.exe" inside of the "redis" folder for the caching purposes.
-ML folder hierarchy: ml -> ML -> API.py
-Redis folder hierarchy: ml -> redis -> redis-server.exe
-*Note:* Before running the python code, you need to set environment variables which are crucial for the AWS database connectivity. Open the Powershell, and type:
-`$env:AWS_ACCESS_KEY_ID="your_access_key_id"
-$env:AWS_SECRET_ACCESS_KEY="your_secret_access_key"`<br>
-Finally, run the ml part apps:
+* ML folder hierarchy: ml -> ML -> API.py
+* Redis folder hierarchy: ml -> redis -> redis-server.exe <br><br>
+*Note:* Before running the python code, you need to set environment variables which are crucial for the AWS database connectivity. Open the Powershell, and type:<br>
+`$env:AWS_ACCESS_KEY_ID="your_access_key_id"`<br>
+`$env:AWS_SECRET_ACCESS_KEY="your_secret_access_key"`<br><br>
+* Finally, run the ml part apps:
   * python API.py 5000
   * run redis-server.exe
 
@@ -57,5 +57,6 @@ Finally, run the ml part apps:
 **Back-end:** Java, Spring Boot<br>
 **Database:** AWS, MySQL<br>
 **In-memory, Cache:** Redis<br>
+**Load Balancer:** NginX<br>
 **VCS:** Git, Github<br>
 
