@@ -74,7 +74,7 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
   * Then run the *nginx.exe*
 
 
-#### 8) Open the "ml" folder and run "ML" folder's python code (API.py) which contains machine learning python code inside of it. Additionally, make sur that you have started the "redis-server.exe" inside of the "redis" folder for the caching purposes.
+#### 8) Open the "ml" folder and run "ML" folder's python code (API.py) which contains machine learning python code inside of it. Additionally, make sure that you have started the "redis-server.exe" inside of the "redis" folder for the caching purposes.
 * ML folder hierarchy: ml -> ML -> API.py
 * Redis folder hierarchy: ml -> redis -> redis-server.exe <br><br>
 *Note:* Before running the python code, you need to set environment variables which are crucial for the AWS Secrets Manager. Open the Powershell, and type:<br>
