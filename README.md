@@ -84,7 +84,7 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
   * python API.py 5000
 
 #### 9) Open frontend folder in Android Studio IDE, and run the frontend code.
-  * Under the \app\src\main\java\com\chattingapp\foodrecipeuidemo\retrofit folder, open RetrofitHelper and change your ip address (It is in the BASE_URL constant).
+  * Under the \app\src\main\java\com\chattingapp\foodrecipeuidemo\retrofit folder, open RetrofitHelper and change your ip address (It is in the BASE_URL constants).
   * Run frontend app in the IDE
 
 #### 10) For detailed web interface of backend microservices
