@@ -42,19 +42,19 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
     * **ApiGateway**:
       * AWS_ACCESS_KEY_ID = your-aws-access-key-id-token
       * AWS_SECRET_ACCESS_KEY = your-aws-secret-access-key-token
-    * **Comment**:
-    * **CreateRecipe**:
-    * **Credentials**:
-    * **EmailSender**:
-    * **Favorite**:
-    * **FeedFollowingGetter**:
-    * **Click**:
-    * **LikeDislike**:
-    * **Profile**:
-    * **ProfileGetter**:
-    * **ProfileRecipe**:
-    * **RecipeGetter**:
-    * **SearchProfile**:
+    * **Comment**,
+    * **CreateRecipe**,
+    * **Credentials**,
+    * **EmailSender**,
+    * **Favorite**,
+    * **FeedFollowingGetter**,
+    * **Click**,
+    * **LikeDislike**,
+    * **Profile**,
+    * **ProfileGetter**,
+    * **ProfileRecipe**,
+    * **RecipeGetter**,
+    * **SearchProfile**,
     * **SearchRecipe**:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
