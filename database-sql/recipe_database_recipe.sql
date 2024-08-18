@@ -3,7 +3,7 @@
 -- Host: yumbyte.c1kwu2kwmcn6.eu-central-1.rds.amazonaws.com    Database: recipe_database
 -- ------------------------------------------------------
 -- Server version	8.0.35
-
+use recipe_database;
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -32,21 +32,21 @@ DROP TABLE IF EXISTS `recipe`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `recipe` (
   `id` bigint NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) NOT NULL,
-  `description` varchar(255),
-  `cuisine` varchar(255) DEFAULT NULL,
-  `course` varchar(255) DEFAULT NULL,
-  `diet` varchar(255) DEFAULT NULL,
-  `prep_time` varchar(255) DEFAULT NULL,
-  `ingredients` varchar(255),
-  `instructions` varchar(255),
-  `image` varchar(255) DEFAULT NULL,
+  `name` text NOT NULL,
+  `description` text,
+  `cuisine` text DEFAULT NULL,
+  `course` text DEFAULT NULL,
+  `diet` text DEFAULT NULL,
+  `prep_time` text DEFAULT NULL,
+  `ingredients` text,
+  `instructions` text,
+  `image` text DEFAULT NULL,
   `date_created` datetime DEFAULT CURRENT_TIMESTAMP,
   `owner_id` bigint unsigned NOT NULL,
   PRIMARY KEY (`id`),
   KEY `idx_owner_id` (`owner_id`),
   KEY `idx_date_created` (`date_created`),
-  KEY `idx_name` (`name`),
+  KEY `idx_name` (`name`(255)),  -- Prefix length of 255 characters
   KEY `idx_id_type` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3154 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
