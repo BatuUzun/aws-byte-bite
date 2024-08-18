@@ -33,8 +33,8 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
   * Navigate to the spring boot backend microservice, click to the "Run as", then click "Run configurations". Inside that, proceed to the "environment variables" part, then:
     * **NamingServer**:
       * *no env variables needed*
-    * **AmazonService**:
-    * **ProfilePhotoDownloader**:
+    * **AmazonS3**:
+    * **ProfilePictureDownloader**:
       * AWS_ACCESS_KEY = your-aws-access-key-token
       * AWS_BUCKET_PROFILE = your-aws-bucket-profile-token
       * AWS_BUCKET_RECIPE = your-aws-bucket-recipe-token
@@ -48,9 +48,9 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
     * **EmailSender**:
     * **Favorite**:
     * **FeedFollowingGetter**:
-    * **Interaction**:
+    * **Click**:
     * **LikeDislike**:
-    * **ProfileApi**:
+    * **Profile**:
     * **ProfileGetter**:
     * **ProfileRecipe**:
     * **RecipeGetter**:
