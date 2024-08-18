@@ -37,53 +37,53 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
     * Comment:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+
     * CreateRecipe:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * Credentials:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * EmailSender:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * Favorite:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * FeedFollowingGetter:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * Interaction:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * LikeDislike:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * ProfileApi:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * ProfileGetter:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * ProfilePhotoDownloader:
       * AWS_ACCESS_KEY = your-aws-access-key-token
       * AWS_BUCKET_PROFILE = your-aws-bucket-profile-token
@@ -92,23 +92,23 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
     * ProfileRecipe:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * RecipeGetter:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * SearchProfile:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)
+      * SPRING_DATASOURCE_USERNAME = your-username
+        
     * SearchRecipe:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = admin
-        * (if default is *admin*)<br><br>
+      * SPRING_DATASOURCE_USERNAME = your-username
+        <br><br>
   * After the configurations, please run all the backend microservices (first *namingserver*, then others).
   * In the browser, type url of *http://localhost:8761*
 
