@@ -93,7 +93,7 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
 ## Technologies Used
 
 **Front-end:** Kotlin, JetpackCompose, Android Studio IDE<br>
-**Back-end:** Java, Spring Boot<br>
+**Back-end:** Java, Spring Booti Python, Flask<br>
 **Database:** AWS RDS, AWS S3, MySQL<br>
 **In-memory, Cache:** Redis, Coil Image Loader<br>
 **Load Balancer:** NginX, Spring Cloud API Gateway<br>
