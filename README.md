@@ -24,12 +24,17 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
   * Download Redis folder from this link: *https://github.com/mec-cs/aws-bite-byte-ml*
   * After it is completed, run *redis-server.exe*
 
-#### 5) Open "backend" folder and run them in any Java Spring Boot supporting IDE (e.g. Eclipse, IntelliJ IDEA). First run "namingserver", then run the other services. Open any browser and navigate *http://localhost:8761/* to monitor backend microservices' status.
+#### 5) Database SQL Codes:
+ * In the *database-sql* folder, there are SQL codes in which whole database structure and sample data is written in SQL. You can run those scripts in proper applications to create your own database.
+ * PS: Be aware that, while creating the databases, there are 3 types of database which are user, interaction and recipe. So be careful about these types before creating them. (e.g. Run recipe related database sql codes within their context).  
+
+#### 6) Open "backend" folder and run them in any Java Spring Boot supporting IDE (e.g. Eclipse, IntelliJ IDEA). First run "namingserver", then run the other services. Open any browser and navigate *http://localhost:8761/* to monitor backend microservices' status.
   * First and foremost, it is a must to add environment variables to run microservices properly. In this documentation, these configurations is implemented in Eclipse IDE. (You can implement these in any modern IDE)<br>
   * Navigate to the spring boot backend microservice, click to the "Run as", then click "Run configurations". Inside that, proceed to the "environment variables" part, then:
     * **NamingServer**:
       * *no env variables needed*
     * **AmazonService**:
+    * **ProfilePhotoDownloader**:
       * AWS_ACCESS_KEY = your-aws-access-key-token
       * AWS_BUCKET_PROFILE = your-aws-bucket-profile-token
       * AWS_BUCKET_RECIPE = your-aws-bucket-recipe-token
@@ -37,77 +42,20 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
     * **ApiGateway**:
       * AWS_ACCESS_KEY_ID = your-aws-access-key-id-token
       * AWS_SECRET_ACCESS_KEY = your-aws-secret-access-key-token
-    * Comment:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-
-    * CreateRecipe:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * Credentials:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * EmailSender:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * Favorite:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * FeedFollowingGetter:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * Interaction:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * LikeDislike:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * ProfileApi:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * ProfileGetter:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * ProfilePhotoDownloader:
-      * AWS_ACCESS_KEY = your-aws-access-key-token
-      * AWS_BUCKET_PROFILE = your-aws-bucket-profile-token
-      * AWS_BUCKET_RECIPE = your-aws-bucket-recipe-token
-      * AWS_SECRET_KEY=ffqDFwvetGtIhTNGfLS8K+eDJP6yvwIfECPYaQ0G
-    * ProfileRecipe:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * RecipeGetter:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * SearchProfile:
-      * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
-      * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
-      * SPRING_DATASOURCE_USERNAME = your-username
-        
-    * SearchRecipe:
+    * **Comment**:
+    * **CreateRecipe**:
+    * **Credentials**:
+    * **EmailSender**:
+    * **Favorite**:
+    * **FeedFollowingGetter**:
+    * **Interaction**:
+    * **LikeDislike**:
+    * **ProfileApi**:
+    * **ProfileGetter**:
+    * **ProfileRecipe**:
+    * **RecipeGetter**:
+    * **SearchProfile**:
+    * **SearchRecipe**:
       * SPRING_DATASOURCE_PASSWORD = your-aws-spring-datasource-password
       * SPRING_DATASOURCE_URL = your-aws-spring-datasource-url
       * SPRING_DATASOURCE_USERNAME = your-username
@@ -115,7 +63,7 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
   * After the configurations, please run all the backend microservices (first *namingserver*, then others).
   * In the browser, type url of *http://localhost:8761*
 
-#### 6) Download Nginx for the ML part. (Downlaod NginX from the url (Windows): *https://nginx.org/en/docs/windows.html*)
+#### 7) Download Nginx for the ML part. (Downlaod NginX from the url (Windows): *https://nginx.org/en/docs/windows.html*)
   * Unzip the nginx folder, and navigate to the *conf* folder. Inside of that folder, open the *nginx.conf* file with any text editor.
   * Inside that file, please add this code under the http block:<br>
   `upstream flaskapp {`<br>
@@ -126,7 +74,7 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
   * Then run the *nginx.exe*
 
 
-#### 7) Open the "ml" folder and run "ML" folder's python code (API.py) which contains machine learning python code inside of it. Additionally, make sur that you have started the "redis-server.exe" inside of the "redis" folder for the caching purposes.
+#### 8) Open the "ml" folder and run "ML" folder's python code (API.py) which contains machine learning python code inside of it. Additionally, make sur that you have started the "redis-server.exe" inside of the "redis" folder for the caching purposes.
 * ML folder hierarchy: ml -> ML -> API.py
 * Redis folder hierarchy: ml -> redis -> redis-server.exe <br><br>
 *Note:* Before running the python code, you need to set environment variables which are crucial for the AWS Secrets Manager. Open the Powershell, and type:<br>
@@ -135,11 +83,11 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
 * Finally, run the ml part apps:
   * python API.py 5000
 
-#### 8) Open frontend folder in Android Studio IDE, and run the frontend code.
+#### 9) Open frontend folder in Android Studio IDE, and run the frontend code.
   * Under the \app\src\main\java\com\chattingapp\foodrecipeuidemo\retrofit folder, open RetrofitHelper and change your ip address (It is in the BASE_URL constant).
   * Run frontend app in the IDE
 
-#### 9) For detailed web interface of backend microservices
+#### 10) For detailed web interface of backend microservices
   * In browser, locate to the *http://localhost:8765/webjars/swagger-ui/4.15.5/index.html*
 
 ## Technologies Used
