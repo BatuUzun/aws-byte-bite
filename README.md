@@ -8,7 +8,7 @@ The aim of this project is to create a dynamic and engaging recipe-sharing platf
 
 ## Members
 Batu Uzun (*Leading contributor*)<br>
-Mehmet Enes Çakır (*Supporting contributor*)
+Mehmet Enes Çakır (*Supporting contributor*)<br>
 Emre Furkan Akyol (*Machine Learning Assistant*)
 
 ## Installation
