@@ -1,9 +1,9 @@
-[submodule "frontend"]
-	path = frontend
-	url = git@github.com:mec-cs/aws-bite-byte-frontend.git
-[submodule "backend"]
-	path = backend
-	url = git@github.com:mec-cs/aws-bite-byte-backend.git
-[submodule "ml"]
-	path = ml
-	url = git@github.com:mec-cs/aws-bite-byte-ml.git
+[submodule "aws-bite-byte-frontend"]
+	path = aws-bite-byte-frontend
+	url = https://github.com/mec-cs/aws-bite-byte-frontend.git
+[submodule "aws-bite-byte-backend"]
+	path = aws-bite-byte-backend
+	url = https://github.com/mec-cs/aws-bite-byte-backend.git
+[submodule "aws-bite-byte-ml"]
+	path = aws-bite-byte-ml
+	url = https://github.com/mec-cs/aws-bite-byte-ml.git
