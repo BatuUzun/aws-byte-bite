@@ -38,9 +38,9 @@ Redis folder hierarchy: ml -> redis -> redis-server.exe
 
 ## Technologies Used
 
-Front-end: Kotlin, JetpackComposer, Android Studio IDE<br>
-Back-end: Java, Spring Boot<br>
-Database: AWS, MySQL<br>
-In-memory, Cache: Redis<br>
-VCS: Git, Github<br>
+**Front-end:** Kotlin, JetpackComposer, Android Studio IDE<br>
+**Back-end:** Java, Spring Boot<br>
+**Database:** AWS, MySQL<br>
+**In-memory, Cache:** Redis<br>
+**VCS:** Git, Github<br>
 
