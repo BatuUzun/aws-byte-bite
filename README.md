@@ -1,4 +1,4 @@
-# AWS Bite-Byte
+# AWS Bite-Byte <img src="https://github.com/user-attachments/assets/f135414c-3f5c-4ba0-92b7-2676f1117d93" width="32" alt="YumByte Icon">
 Open source group project for AWS University Engagement Programme. It is a android mobile application in the context of recipes.
 
 
