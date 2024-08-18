@@ -25,8 +25,8 @@ Emre Furkan Akyol (*Machine Learning Assistant*)
   * After it is completed, run *redis-server.exe*
 
 #### 5) Database SQL Codes:
- * In the *database-sql* folder, there are SQL codes in which whole database structure and sample data is written in SQL. You can run those scripts in proper applications to create your own database.
- * PS: Be aware that, while creating the databases, there are 3 types of database which are user, interaction and recipe. So be careful about these types before creating them. (e.g. Run recipe related database sql codes within their context).  
+ * In the *database-sql* folder, there are SQL codes in which whole database structure and sample data are written in SQL. You can run those scripts in proper applications to create your own database.
+ * PS: Be aware that, while creating the databases, there are 3 types of database which are user, interaction and recipe. So be careful about that before creating them. (e.g. Run recipe related database sql codes within their context).  
 
 #### 6) Open "backend" folder and run them in any Java Spring Boot supporting IDE (e.g. Eclipse, IntelliJ IDEA). First run "namingserver", then run the other services. Open any browser and navigate *http://localhost:8761/* to monitor backend microservices' status.
   * First and foremost, it is a must to add environment variables to run microservices properly. In this documentation, these configurations is implemented in Eclipse IDE. (You can implement these in any modern IDE)<br>
