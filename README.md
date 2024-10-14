@@ -1,6 +1,6 @@
 # AWS Bite-Byte <img src="https://github.com/user-attachments/assets/f135414c-3f5c-4ba0-92b7-2676f1117d93" width="32" alt="YumByte Icon">
 Open source group project for AWS University Engagement Programme. It is a android mobile application in the context of recipes.
-
+Demonstration: https://drive.google.com/file/d/1wPGr3Fs65mVZoUiCp3qsY870Gx5fWynR/view?usp=drive_link
 
 ## Objective
 The aim of this project is to create a dynamic and engaging recipe-sharing platform for food enthusiasts. Similar to the concept of social media platforms, our application will allow users, known as "foodies," to share their culinary creations, discover new recipes, and interact with a community of like-minded individuals. By integrating our machine learning model, we will analyze the user's likes, favorites, and clicks to provide personalized recipe recommendations, enhancing the user experience by offering content tailored to their tastes and preferences.
